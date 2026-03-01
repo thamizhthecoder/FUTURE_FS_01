@@ -8,7 +8,8 @@ const Projects = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    // In production (Vercel), we fetch from the same domain natively.
+    const API_URL = import.meta.env.PROD ? '' : 'http://localhost:5000';
     fetch(`${API_URL}/api/projects`)
       .then(res => res.json())
       .then(data => {
