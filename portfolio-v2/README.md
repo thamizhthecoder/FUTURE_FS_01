@@ -41,7 +41,20 @@ To run this frontend interface locally, ensure you have Node.js installed.
    ```
    *The application will launch on your local host (typically `http://localhost:5173`).*
 
-**Note:** For the contact form and dynamic content to function fully, ensure the `server-v2` backend is also running concurrently.
+**Note:** For the contact form and dynamic content to function fully locally, ensure the `server-v2` backend is also running concurrently on port `5000`.
+
+## 🌐 Deploying to Vercel
+
+This frontend project is fully configured to be deployed on **Vercel** with out-of-the-box support for the React Router DOM architecture via the included `vercel.json` file.
+
+1. Go to your [Vercel Dashboard](https://vercel.com/dashboard) and click **Add New...** > **Project**.
+2. Import this `FUTURE_FS_01` GitHub repository.
+3. Important: Under **Root Directory**, click Edit and select `portfolio-v2`.
+4. Vercel will automatically detect **Vite**.
+5. Under **Environment Variables**, add:
+   - Name: `VITE_API_URL`
+   - Value: `https://your-backend-domain.com` (If you want to host the backend elsewhere on Render/Heroku). If left blank, it defaults back to `http://localhost:5000`.
+6. Click **Deploy**!
 
 ---
 *Built for the Future Interns Full Stack Web Development Curriculum.*
