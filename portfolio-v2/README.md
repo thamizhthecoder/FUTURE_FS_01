@@ -1,31 +1,47 @@
-# Future Intern Portfolio
+# Personal Professional Portfolio (Frontend)
 
-A professional full-stack portfolio website built with React, Vite, Framer Motion, and a lightweight Node.js/Express backend.
+This is the frontend component of my **Full Stack Web Development Task 1: Personal Professional Portfolio Website**. 
 
-## Project Structure
-- `portfolio-v2`: Frontend React application
-- `server-v2`: Backend Node.js Express server using local JSON files as a mock database
+This portfolio acts as my digital resume and proof-of-work, designed to showcase my skills, tech stack, and the full-stack projects I have built. It provides a clean, responsive, and professional user experience for recruiters, clients, and hiring managers.
 
-## Running Locally
+## 🎯 Objective
+Create a clean, responsive, and professional portfolio website that showcases:
+*   My skills and tech stack
+*   Projects I have built (including Future Interns tasks)
+*   My background, interests, and goals
+*   A clear way for people to contact me
 
-### 1. Start the Backend Server
-```bash
-cd ../server-v2
-npm install
-npm start
-```
-The server will run on `http://localhost:5000`
+## ✨ Key Features
+*   **Interactive UI**: Dynamic and modern user interface built with React.
+*   **Responsive Design**: Fully optimized to work seamlessly on both mobile devices and desktop screens.
+*   **Project Showcase**: Dedicated section highlighting my work and case studies.
+*   **Contact Form**: Functional contact section allowing visitors to send messages that are processed by the Node.js backend.
+*   **Professional Aesthetics**: Clean layout drawing inspiration from modern design platforms (Dribbble, Behance).
 
-### 2. Start the Frontend Application
-```bash
-cd ../portfolio-v2
-npm install
-npm run dev
-```
-The frontend will typically run on `http://localhost:5173`
+## 🛠️ Tech Stack & Architecture
 
-## Features
-- **Dynamic Projects**: Fetched actively from the backend JSON store
-- **Blog Section**: Fetched from the backend
-- **Functional Contact Form**: Stores incoming messages directly to the backend
-- **Sleek UI**: Modern glassmorphism aesthetics powered by Framer Motion and Lucide React icons
+This repository contains the **Frontend** portion of the application.
+
+*   **Framework**: React.js (Vite)
+*   **Styling**: CSS / Tailwind 
+*   **Backend Integration**: Native `fetch`/`axios` calls to the accompanying [Node.js server-v2 backend](../server-v2) which handles contact form messages and dynamic content.
+
+## 🚀 Setup & Execution
+
+To run this frontend interface locally, ensure you have Node.js installed.
+
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   *The application will launch on your local host (typically `http://localhost:5173`).*
+
+**Note:** For the contact form and dynamic content to function fully, ensure the `server-v2` backend is also running concurrently.
+
+---
+*Built for the Future Interns Full Stack Web Development Curriculum.*
