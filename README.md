@@ -56,7 +56,7 @@ The backend automatically compiles as a Vercel Serverless Function under the `/a
 5. Click **Deploy**!
 
 ---
-*Built with ❤️ for the Future Interns Curriculum.*
+*Built for the Future Interns Curriculum.*
 
 ## 🛠️ Complete Tech Stack
 
