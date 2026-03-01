@@ -1,0 +1,7 @@
+{
+    "name": "future-fs-01",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "cd portfolio-v2 && npm install && npm run build"
+    }
+}

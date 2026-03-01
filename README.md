@@ -9,7 +9,7 @@ This repository encompasses a complete **Personal Professional Portfolio Website
 The project has been architected as a decoupled Full-Stack application, separated into two distinct directories:
 
 *   [`/portfolio-v2`](./portfolio-v2): The modern, interactive React (Vite) **Frontend**.
-*   [`/server-v2`](./server-v2): The lightweight Node.js/Express **Backend** that manages dynamic data (contact messages, projects, blogs) via the local file system.
+*   [`/api`](./api): The lightweight Node.js/Express **Backend** that manages dynamic data (contact messages, projects, blogs). This is configured as a Vercel Serverless Function.
 
 ## ✨ Key Features
 
@@ -26,9 +26,9 @@ To run the complete portfolio on your local machine, you will need to boot both 
 ### 1. Start the Backend API
 Open a terminal and navigate to the backend directory:
 ```bash
-cd server-v2
+cd api
 npm install
-npm run start # or node server.js
+npm run start
 ```
 *(The backend runs on http://localhost:5000)*
 
@@ -41,10 +41,27 @@ npm run dev
 ```
 *(The frontend automatically connects to the local backend and serves over http://localhost:5173)*
 
+## 🌐 Deploying to Vercel (Monorepo Setup)
+
+This repository is strictly configured to deploy as a monorepo on **Vercel** with zero `NOT_FOUND` errors.
+The backend automatically compiles as a Vercel Serverless Function under the `/api` route, and the React Router DOM correctly handles SPA routing.
+
+1. Go to your [Vercel Dashboard](https://vercel.com/dashboard) and click **Add New...** > **Project**.
+2. Import this `FUTURE_FS_01` GitHub repository.
+3. Keep the **Root Directory** as the repository root `FUTURE_FS_01` (Do NOT change it!).
+4. Open the **Build and Output Settings** dropdown:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build` (This triggers the root package.json to build the frontend)
+   - **Output Directory**: `portfolio-v2/dist`
+5. Click **Deploy**!
+
+---
+*Built with ❤️ for the Future Interns Curriculum.*
+
 ## 🛠️ Complete Tech Stack
 
 *   **Frontend**: React (Vite), Tailwind CSS, React Router DOM, Framer Motion
 *   **Backend**: Node.js, Express, CORS
-*   **Storage**: Native JSON File System 
+*   **Storage**: Native JSON File System
 
 ---
