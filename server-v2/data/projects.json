@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "title": "Learning Path Dashboard for Enhancing skills",
+        "description": "Developed an education platform using Flask/Python and MySQL that personalizes learning paths according to each user. Implemented automated tools including BibTeX-to-Excel conversion (for tutors) and real-time progress tracking, while creating Interactive data visualizations to enhance learning analytics and student engagement.",
+        "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80",
+        "tags": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "Data Visualization"
+        ],
+        "liveUrl": "#",
+        "githubUrl": "#",
+        "featured": true
+    },
+    {
+        "id": "2",
+        "title": "STATTS: Smart Doorbell",
+        "description": "Developed a smart surveillance system with YOLOv8 motion detection (90%+ accuracy), FastAPI backend, and MongoDB Atlas - delivering secure, scalable monitoring through encrypted logging in a software-only architecture.",
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
+        "tags": [
+            "YOLOv8",
+            "FastAPI",
+            "MongoDB Atlas"
+        ],
+        "liveUrl": "#",
+        "githubUrl": "#",
+        "featured": true
+    },
+    {
+        "id": "3",
+        "title": "SocialSage",
+        "description": "Designed and implemented React interfaces for an AI-powered analytics dashboard, developing interactive network visualizations with real-time metrics dashboards using Chart.js, and a responsive Gemini(API) chatbot UI.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+        "tags": [
+            "React",
+            "Chart.js",
+            "Gemini API"
+        ],
+        "liveUrl": "#",
+        "githubUrl": "#",
+        "featured": true
+    }
+]

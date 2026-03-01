@@ -1,0 +1,26 @@
+[
+    {
+        "id": "b2",
+        "title": "Starting My Journey with Future Interns",
+        "excerpt": "Delighted to join the Full Stack Web Development Internship under the Fellowship Program at Future Interns.",
+        "content": "We are delighted to welcome you to the Full Stack Web Development Internship under our Fellowship Program at Future Interns. This internship is designed to be a valuable learning experience that includes orientation, skill development, and the practical application of concepts in a real-world environment. I am incredibly excited to embark on this journey, apply my skills, and grow as a professional developer.",
+        "date": "2026-03-01",
+        "tags": [
+            "Internship",
+            "Future Interns",
+            "Career"
+        ]
+    },
+    {
+        "id": "b1",
+        "title": "My Journey into Full Stack Web Development",
+        "excerpt": "A deep dive into why I chose to learn both frontend and backend development...",
+        "content": "Full stack development offers a complete understanding of how applications work...",
+        "date": "2026-02-15",
+        "tags": [
+            "Career",
+            "Development",
+            "Learning"
+        ]
+    }
+]

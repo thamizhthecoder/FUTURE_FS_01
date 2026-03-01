@@ -1,0 +1,119 @@
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+}
+
+@media (min-width: 992px) {
+    .about-content {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+}
+
+.about-text {
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+
+.about-text h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-text p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skill-category {
+    background: rgba(20, 20, 20, 0.5);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 16px;
+    transition: transform var(--transition-normal);
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.skill-icon {
+    color: var(--accent-primary);
+    display: flex;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    border: 1px solid var(--border-hover);
+}
+
+.education-section,
+.certifications-section {
+    margin-top: 2rem;
+}
+
+.subsection-title {
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+    color: var(--accent-primary);
+}
+
+.education-item {
+    margin-bottom: 1.25rem;
+}
+
+.education-item h5 {
+    font-size: 1.05rem;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+}
+
+.institution {
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem !important;
+}
+
+.duration {
+    font-size: 0.85rem;
+    color: var(--accent-secondary);
+    font-weight: 500;
+}
+
+.certifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.certifications-list li {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.certifications-list span {
+    color: var(--accent-primary);
+}
