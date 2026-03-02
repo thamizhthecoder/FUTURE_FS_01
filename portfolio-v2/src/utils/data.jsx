@@ -31,11 +31,6 @@ export const education = [
     degree: "Bachelor of Computer Science and Engineering (BE in CSE)",
     institution: "Sri Venkateswara College of Engineering (Chennai, Tamil Nadu)",
     duration: "Sep 2023 - Expected May 2027",
-  },
-  {
-    degree: "Higher Secondary Education in Computer Science (CS)",
-    institution: "ICF Silver Jubilee Matriculation Higher Secondary School (Chennai, Tamil Nadu)",
-    duration: "11th: 86.67% | 12th: 90.67%",
   }
 ];
 
